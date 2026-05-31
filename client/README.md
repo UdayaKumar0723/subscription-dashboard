@@ -2,6 +2,8 @@
 
 React + Vite frontend for the Subscription Management Dashboard assessment.
 
+Live app: https://client-coral-tau-66.vercel.app
+
 ## Setup
 
 ```bash

@@ -18,6 +18,12 @@ subscription-dashboard/
 
 The backend is in `server/`. The frontend is in `client/`.
 
+## Live URLs
+
+Backend API: https://subscription-dashboard-ewsi.onrender.com
+
+Frontend App: https://client-coral-tau-66.vercel.app
+
 ## Backend
 
 ```bash
