@@ -19,6 +19,19 @@ npm run dev
 - `npm start` - run compiled server
 - `npm run seed` - seed plans and default admin
 
+## Render Deployment
+
+When deploying manually on Render, use:
+
+```txt
+Root Directory: server
+Build Command: npm install && npm run build
+Start Command: npm start
+Health Check Path: /health
+```
+
+Add the environment variables from `.env.example` in the Render dashboard. Set `NODE_ENV=production`.
+
 ## Default Admin
 
 - Email: `admin@test.com`
