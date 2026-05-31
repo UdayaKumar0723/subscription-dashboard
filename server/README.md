@@ -25,7 +25,7 @@ When deploying manually on Render, use:
 
 ```txt
 Root Directory: server
-Build Command: npm install && npm run build
+Build Command: npm install --include=dev && npm run build
 Start Command: npm start
 Health Check Path: /health
 ```

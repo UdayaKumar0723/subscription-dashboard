@@ -28,7 +28,7 @@ Use the `render.yaml` blueprint from the repository root, or create a Web Servic
 
 ```txt
 Root Directory: server
-Build Command: npm install && npm run build
+Build Command: npm install --include=dev && npm run build
 Start Command: npm start
 Health Check Path: /health
 ```
